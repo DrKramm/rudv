@@ -1,69 +1,88 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <!--<link rel="stylesheet" href="outlines.css">-->
-	<link rel="stylesheet" href="style.css">
-    <title>Портфолио Junior верстальщика</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-  </head>
+<html lang="en">
 
-  <body>
-    <header class="page-header">
-		<div class="container">
-			Контакты в шапке<br>
-		</div>
-    </header>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta keywords="верстка HTML, CSS, JS, JavaScript, верстка фронтенд, верстка frontend">
+	<meta description="Дмитрий Руденко, web frontend developer - портфолио, HTML верстка">
+	<title>Сайт портфолио</title>
+</head>
 
-    <section class="hero-image">
-	<div class="container">
-      <h1 class="heading">Опознанный Енот</h1>
-	  </div>
-	  <div class="container">
-      <p>Junior верстальщик</p>
-	  </div>
-    </section>
+<body>
+	<img src="https://img2.freepng.ru/20181110/xuf/kisspng-vikings-vector-graphics-clip-art-drawing-image-vikings3-png-clipart-pinterest-5be6bff98a5f12.3170392715418490815668.jpg"
+		alt="Фото Дмитрий Руденко" width="200">
+	<h1>Дмитрий</h1>
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <strong>Dicta aliquam vitae debitis</strong>
+		recusandae corporis eius dolor architecto explicabo excepturi ipsam.</p>
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <em>Rerum suscipit ut a iste quam doloribus aperiam
+		</em> voluptatum aliquid eos, reiciendis dignissimos amet nostrum eum esse, repudiandae tempora cupiditate alias
+		at?
+	</p>
+	<h4>Список социальных сетей:</h4>
+	<a href="https://t.me/Az_esm_Tsar" target="_blank">Telegram</a> |
+	<a href="https://vk.com/dvrud" target="_blank">Вконтакте</a>
 
-    <section class="intro">
-	<div class="container">
-      <h2 class="subheading">Давайте познакомимся</h2>
-	  </div>
-	  <div class="container">
-      <h3>Пара слов о себе</h3>
-	  </div>
-	  <div class="container">
-      <p>Текст с парой слов о себе.</p>
-	  </div>
-	  <div class="container">
-      <h3>Чем могу быть полезен</h3>
-	  </div>
-	  <div class="container">
-      <p>Текст о том, чем могу быть полезен.</p>
-	  </div>
-    </section>
+	<h2>Мои хобби:</h2>
+	<ol>
+		<li>Музыка</li>
+		<li>Спорт</li>
+		<li>Кино</li>
+		<li>Рыбалка</li>
+		<li>Компьютеры</li>
+	</ol>
 
-    <section class="portfolio">
-		<div class="container">
-			<h2 class="subheading">Мои работы</h2>
-		</div>
-		<div class="container">
-			<h3>Сайт инструктора Кекса</h3>
-		</div>
-		<div class="container">
-			<p>Небольшой лендинг о школе для начинающих.</p>
-		</div>
-		<div class="container">
-			<h3>Блог начинающего верстальщика</h3>
-		</div>
-		<div class="container">
-			<p>Статический блог про обучение HTML и CSS.</p>
-		</div>
-    </section>
+	<h2>Опыт работы</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Название</th>
+				<th>Должность</th>
+				<th>Год</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>krd</td>
+				<td>фрилансер</td>
+				<td>2011-2017</td>
+			</tr>
+			<tr>
+				<td>binance</td>
+				<td>фрилансер</td>
+				<td>2017-2020</td>
+			</tr>
+			<tr>
+				<td>fl.ru</td>
+				<td>фрилансер</td>
+				<td>2020-сейчас</td>
+			</tr>
+		</tbody>
+	</table>
 
-    <footer class="page-footer">
-		<div class="container">
-			Контакты в подвале
+	<h2>Связаться со мной</h2>
+	<form action="">
+		<div>
+			<label for="name">Ваше имя:</label>
+			<input type="text" id="name" placeholder="Введите имя">
 		</div>
-    </footer>
-  </body>
+		<div>
+			<label for="email">Ваш email:</label>
+			<input type="email" id="email" placeholder="Введите email">
+		</div>
+		<div>
+			<label for="massage">Ваше сообщение:</label>
+			<br>
+			<textarea id="massage" cols="30" rows="5" placeholder="Введите текст..."></textarea>
+		</div>
+		<div>
+			<input type="reset" value="Очистить">
+		</div>
+		<div>
+			<input type="submit" value="Отправить!">
+		</div>
+	</form>
+</body>
+
 </html>
