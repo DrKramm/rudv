@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body{
+	font-family: 'PT serif', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: lightgray;
+}
+
+.talk{
+	font-style: italic;
+}
+
+.aboutme{
+font-weight: 600;
+}
+
+.hoisme{
+	text-decoration: underline;
+}
+
+.social{
+	color: blue;
+}
+
+table{
+	text-align: center;
+}
+
+th{
+font-size: 1.2em;
+}
+
+td, th{
+	width: 35%;
+	border: 1px solid black;
+	padding: 10px;
+	
+}
+
