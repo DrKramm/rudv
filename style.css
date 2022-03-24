@@ -1,29 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 800px;
+	margin: auto;
+}
+
 body{
 	font-family: 'PT serif', sans-serif;
 	font-size: 16px;
 	font-weight: normal;
-	background-color: lightgray;
+	background-color: #D3D3D3;
+}
+
+.avatar{
+	border-radius: 10px;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 .talk{
+	padding: 10px 0;
+	margin: auto;
 	font-style: italic;
 }
 
-.aboutme{
-font-weight: 600;
+.about-me{	
+	font-weight: 600;
 }
 
-.hoisme{
+.hois-me{
 	text-decoration: underline;
 }
 
 .social{
-	color: blue;
+	color: #0D00FF;
+}
+
+ol{
+	padding-left: 15px;
+}
+
+li{
+	padding-top: 5px;
 }
 
 table{
+	padding: 10px 0;
 	text-align: center;
 }
 
@@ -32,9 +58,19 @@ font-size: 1.2em;
 }
 
 td, th{
-	width: 35%;
+	width: 40%;
 	border: 1px solid black;
 	padding: 10px;
 	
 }
 
+.card{
+	padding: 30px;
+	border: 5px solid #D3D3D3;
+	border-radius: 15px;
+	background-color: #EBEBEB;
+}
+
+form{
+	padding: 10px 0;
+}
