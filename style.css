@@ -17,9 +17,72 @@ body{
 	background-color: #D3D3D3;
 }
 
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: #EBEBEB;	
+}
+
+.navbar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar ul li{
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.navbar ul li:last-child{
+	margin-right: 0;
+}
+
+.navbar ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+.navbar ul li a:hover{
+	color: gray;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.img{
+	margin-right: 20px;
+}
+
 .avatar{
+	width: 250px;
 	border-radius: 10px;
 	box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info{
+	margin-top: 50px;
+}
+
+.info .card{
+	width: auto;
+	display: flex;
+}
+
+@media(max-width: 650px) {
+	.info .card{
+		display: block;
+	}
+	.img{
+		margin-bottom: 10px;
+	}
 }
 
 .talk{
@@ -28,17 +91,30 @@ body{
 	font-style: italic;
 }
 
-.about-me{	
+.talk .about-me{	
 	font-weight: 600;
 }
 
-.hois-me{
+.talk .hois-me{
 	text-decoration: underline;
 }
 
 .social{
 	color: #0D00FF;
 }
+
+a:visited{
+	color: gray;
+}
+
+a:hover{
+	color: blueviolet;
+}
+
+a:active{
+	color: darkblue;
+}
+
 
 ol{
 	padding-left: 15px;
@@ -48,7 +124,12 @@ li{
 	padding-top: 5px;
 }
 
-table{
+li:hover{
+	color: gray;
+}
+
+.table{
+	width: 100%;
 	padding: 10px 0;
 	text-align: center;
 }
@@ -58,10 +139,22 @@ font-size: 1.2em;
 }
 
 td, th{
-	width: 40%;
 	border: 1px solid black;
 	padding: 10px;
 	
+}
+
+.tbody tr:nth-child(odd) {
+	background-color: #F5DCE9;
+}
+
+.tbody tr:hover{
+	background-color: #D3D3D3;
+}
+
+.courses ul li{
+	margin-left: 15px;
+	list-style: circle;
 }
 
 .card{
@@ -71,6 +164,55 @@ td, th{
 	background-color: #EBEBEB;
 }
 
-form{
+.form{
 	padding: 10px 0;
+}
+
+.form-row{
+	margin-bottom: 20px;
+	display: flex;
+}
+.form-row .form-group{
+	margin-right: 20px;
+	width: 50%;
+}
+
+.form-row .form-group:last-child{
+	margin-right: 0;
+}
+
+@media(max-width: 650px) {
+	.form-row{
+		display: block;
+	}
+	.form-row .form-group{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}
+
+.form-group label{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea{
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	padding: 15px 0 10px;
+}
+
+.btn{
+	background-color: gray;
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.btn:hover{
+	background-color: #D3D3D3;
+	color: black;
 }
